@@ -17,10 +17,10 @@ repositories {
 
 dependencies {
 //    implementation("org.springframework.boot:spring-boot-starter-data-mongodb-reactive")
-    implementation("org.springframework.boot:spring-boot-starter-hateoas")
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("org.springframework.boot:spring-boot-starter-logging")
+    implementation("org.springframework.boot:spring-boot-starter-security-reactive")
     implementation("com.vk.api:sdk:1.0.2")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
